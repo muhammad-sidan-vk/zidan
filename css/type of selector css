@@ -1,0 +1,67 @@
+/*universal selector */
+    color:aquamarine:
+background-color: green;
+font-size:15px;
+
+}
+/*ccontextual/descent selector*/
+p span{
+    color: brown;
+    background-color: forestgreen;
+    font-size: 15px;
+
+
+}
+/*child selector*/
+p span{
+    color: brown;
+    background-color: aqua(176,204,204);
+    font-size: 20px
+    ;
+
+}
+
+ul > li{
+    color: darkred;
+    font-size: 20px;
+}
+
+#ingp1[type="text"]{
+    font-size: 30px;
+    color:aqua(33,182,182);
+}
+
+    h1,h2,h3,h4,h5{
+        color:blueviolet;
+
+
+    }
+/*
+pseudo-element
+selector: : pseudo-element{........}
+*/
+    #p2 ::first-line{
+        color: black;
+        background-color: beige(183,183,206);
+        font-size: 32px;
+
+        #h1::first-letter{
+            color: brown;
+        font-size: 50px;
+        }
+    }
+    /*pseudo-class */
+    #hover:{
+        color: aqua;
+        background-color: black;
+        font-size: 35px;
+        text-decoration: none;
+
+    }
+    
+    #focus
+    }
+;
+    }
+
+}

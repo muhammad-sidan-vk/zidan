@@ -1,0 +1,29 @@
+#div1{
+    height:500px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+
+}
+ .blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    /* bottom: 50px; */
+     /* left: 175px; */
+     /* right: 10px;  */
+    /* top: 20px; */
+    
+    
+ }
+ .green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+ }

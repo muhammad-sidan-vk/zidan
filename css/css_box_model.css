@@ -1,0 +1,78 @@
+h1{
+    border: 5px solid black;
+    padding: 50px;
+    margin: 25px;
+
+}
+
+p{
+    border: 3px solid black;
+    padding: 10px 50px;
+    margin: 10px 50px;
+
+}
+
+div{
+    width: 1000px;
+    height: 200px;
+    background-color: aqua;
+    border: 4px dotted red;
+    padding: 5px 15px 20px 10px;
+    margin: 50px 100px 15px 20px;
+
+}
+
+u1{
+    background-color: yellowgreen;
+    border: 5px solid yellow;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    /*padding-left: 15px;*/
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+/*text properties */
+
+#pa2{
+    font-size: medium;
+    color: blue;
+    text-align:center;
+    text-decoration:underline;
+    text-transform:capitalize;
+    text-shadow: 1px 1px green;
+
+}
+
+#users td, #users th{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+#users{
+    border:collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+    
+
+}
+
+#users th{
+    background-color: green;
+    padding: 5px;
+    color: rosybrown(198,198,212)
+
+    
+}
+
+#users tr:nth-child(even) {
+    background-color: aliceblue(218,145,145);
+
+}
+#users tr:hover{
+    background-color: aqua;
+}
